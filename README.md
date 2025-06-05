@@ -66,6 +66,7 @@ poetry install
 
 # Start the backend server
 poetry run uvicorn src.ag_ui_ag2.hitl_workflow:app --host 0.0.0.0 --port 8000 --reload
+```
 
 The backend server will start at `http://localhost:8000`.
 
