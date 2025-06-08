@@ -1,0 +1,14 @@
+# Dependencies from pyproject.toml
+ag-ui-protocol>=0.1.4,<0.2.0
+openai>=1.78.1,<2.0.0
+fastapi>=0.115.12,<0.116.0
+uvicorn>=0.34.2,<0.35.0
+python-dotenv>=1.1.0,<2.0.0
+ag2[openai]>=0.9.1.post0,<0.10.0
+fastagency>=0.9.1.post0,<0.10.0
+autogen>=0.9.1.post0,<0.10.0
+requests>=2.31.0,<3.0.0
+sseclient-py>=1.7.2,<2.0.0
+
+# Additional dependencies for WebSocket support
+websockets>=12.0

@@ -22,14 +22,14 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/copilotkit"
+                href="/fastapi"
                 className="rounded-full border border-solid border-transparent bg-white text-blue-600 hover:bg-blue-50 font-medium text-sm sm:text-base h-12 px-6 flex items-center justify-center">
-                Plan Your Trip
+                Plan Your Trip (FastAPI)
               </Link>
               <Link
-                href="/destinations"
+                href="/copilotkit"
                 className="rounded-full border border-solid border-white hover:bg-white/10 text-white font-medium text-sm sm:text-base h-12 px-6 flex items-center justify-center">
-                Explore Destinations
+                Plan Your Trip (CopilotKit)
               </Link>
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function Home() {
             discover new destinations.
           </p>
           <Link
-            href="/copilotkit"
+            href="/fastapi"
             className="rounded-full border border-solid border-transparent bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-base h-12 px-8 inline-flex items-center justify-center">
             Get Started Now
           </Link>
