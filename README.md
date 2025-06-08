@@ -65,7 +65,7 @@ echo "OPENAI_API_KEY=your_api_key_here" > .env
 poetry install
 
 # Start the backend server
-poetry run python -m ag_ui_ag2.demo
+poetry run uvicorn src.ag_ui_ag2.hitl_workflow:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 The backend server will start at `http://localhost:8000`.
